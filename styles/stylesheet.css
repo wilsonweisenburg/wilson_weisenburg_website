@@ -1,9 +1,19 @@
 body {
-  background-color: #000000;
-  color: #C0C0C0;
-  font-family: comic sans ms;
+    background-color: #000000;
+    color: #C0C0C0;
+    font-family: monospace;
 }
 
 h1 {
-  font-family: comic sans ms;
+    font-family: monospace;
 }
+
+table,
+td,
+th {
+    border: 1px double #C0C0C0;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links */
