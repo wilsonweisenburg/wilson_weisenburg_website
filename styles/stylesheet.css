@@ -1,11 +1,13 @@
 body {
-    background-color: #000000;
+    background-image: linear-gradient();
     color: #C0C0C0;
     font-family: monospace;
+    text-align: center;
 }
 
 h1 {
     font-family: monospace;
+    text-align: center;
 }
 
 table,
