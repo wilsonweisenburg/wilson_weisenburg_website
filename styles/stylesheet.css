@@ -1,6 +1,6 @@
 body {
-    background-image: linear-gradient();
-    color: #C0C0C0;
+    background-image: linear-gradient(#9198e5, #000000);
+    color: #FFFFFF;
     font-family: monospace;
     text-align: center;
 }
@@ -13,14 +13,20 @@ h1 {
 table,
 td,
 th {
-    border: 1px double #C0C0C0;
+    border: 1px solid #FFFFFF;
     border-collapse: collapse;
     text-align: center;
+    height: 30px;
 }
+
+th {
+    padding: 10px;
+}
+
+tr:hover {background-color: #5C5858}
 
 a {
-    color: #C0C0C0;
+    color: #FFFFFF;
 }
-
 
 /* https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links */
