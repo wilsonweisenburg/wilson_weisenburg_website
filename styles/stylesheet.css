@@ -1,10 +1,11 @@
 body {
-    background-color: #1589FF;
+    background-image: radial-gradient(#1589FF, #000000);
     color: #F9F8F6;
     font-family: monospace;
 }
 
-h1 {
+h1,
+h2 {
     font-family: monospace;
     text-align: center;
 }
@@ -22,9 +23,17 @@ th {
     padding: 10px;
 }
 
-a {}
+.a_favorites {
+    color: #F9F8F6;
+}
 
-tr:hover {background-color: #5C5858}
+.a_favorites:hover {
+    color: #5C5858;
+}
+
+tr:hover {
+    background-color: #5C5858;
+}
 
 .nav_link {
     position: relative;
@@ -39,11 +48,46 @@ tr:hover {background-color: #5C5858}
     color: #F9F8F6;
 }
 
-.nav_link:hover {background-color: #5C5858}
+.nav_link:hover {
+    background-color: #5C5858;
+}
 
-.line {
+.nav_index {
+    color: #F9F8F6;
+    border: 1px solid #F9F8F6;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: relative;
     top: 10px;
+}
+
+.nav_index:hover {
+    background-color: #5C5858;
+}
+
+.p_index {
+    position: relative;
+    top: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.p_all {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ol, ul {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header {
+    margin-top: 45px;
+    margin-bottom: 30px;
 }
 
 
