@@ -19,7 +19,7 @@ th {
     height: 30px;
 }
 
-th {
+th, td {
     padding: 10px;
 }
 
